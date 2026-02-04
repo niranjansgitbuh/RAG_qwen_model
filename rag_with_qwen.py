@@ -60,7 +60,21 @@ def correct_spelling(text):
 
     return corrected_query
 
+# ---------------------------
+# Prompt Template: Query Rewriter
+# ---------------------------
+QUERY_REWRITE_PROMPT = """
+You are a query understanding assistant.
 
+Fix spelling mistakes.
+Preserve domain terms like HDFC, loan, EMI, interest, tenure.
+Rewrite the query clearly and concisely.
+
+User query:
+"{query}"
+
+Rewritten query:
+"""
 
 
 # ---------------------------
