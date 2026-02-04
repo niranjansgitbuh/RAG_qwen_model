@@ -76,7 +76,28 @@ User query:
 Rewritten query:
 """
 
+# 5️⃣ ✅ PUT rewrite_query_with_qwen() HERE
+def rewrite_query_with_qwen(query):
+    prompt = QUERY_REWRITE_PROMPT.format(query=query)
 
+    response = requests.post(
+        "http://localhost:11434/api/generate",
+        json={
+            "model": "qwen2.5:1.5b-instruct",
+            "prompt": prompt,
+            "stream": False
+        }
+    )
+
+    data = response.json()
+
+    if "response" in data:
+        rewritten = data["response"].strip()
+        print(f"📝 Rewritten query: {rewritten}")
+        return rewritten
+
+    return query  # fallback
+    
 # ---------------------------
 # Retrieve relevant context
 # ---------------------------
