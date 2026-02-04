@@ -127,15 +127,21 @@ def ask_qwen(prompt):
 # Run end-to-end RAG
 # ---------------------------
 if __name__ == "__main__":
-    query = "what is teh laon croiteria for business laon?"
+    query = "bebefits of plersonal laon"
 
-    # ✅ ADD THIS LINE
-    query = correct_spelling(query)
+    # ✅ STEP 1: rewrite query using Qwen
+    query = rewrite_query_with_qwen(query)
 
+    # ✅ STEP 2: FAISS retrieval
     context_chunks = retrieve_context(query)
+
+    # ✅ STEP 3: build answer prompt
     prompt = build_prompt(query, context_chunks)
+
+    # ✅ STEP 4: generate answer
     answer = ask_qwen(prompt)
 
     print("\n🧠 Answer:\n")
     print(answer)
+
 
