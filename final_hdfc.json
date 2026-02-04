@@ -1,0 +1,794 @@
+{
+  "hdfc_loan_for_professionals_eligibility": {
+    "bank": "HDFC Bank",
+    "product": "Loan for Professionals",
+    "category": "Business Loan",
+    "eligibilityCriteria": {
+      "profession_type": [
+        "Practicing or consulting Doctors are eligible for the professional loan.",
+        "Chartered Accountants (CAs) engaged in private practice or consulting can apply.",
+        "Architects who are actively consulting or running their own practice are included.",
+        "Company Secretaries (CS) currently practicing or consulting meet the professional criteria.",
+        "Physiotherapists engaged in active professional consultation or practice are eligible.",
+        "The loan is specifically designed for self-employed professionals rather than salaried individuals.",
+        "Business loan categories like 'Loan for Other Professionals' are linked to this segment.",
+        "Healthcare-specific segments include financing for medical equipment for practicing doctors.",
+        "Specialized loan variants are available for specific industries like architects and healthcare professionals.",
+        "Applicants must be actively engaged in their profession through a consultancy or a self-owned practice to qualify."
+      ],
+      "work_experience": [
+        "Doctors are required to have a minimum of 4 years of experience post-qualification.",
+        "Chartered Accountants must have at least 4 years of professional experience after qualifying.",
+        "Company Secretaries are required to have a minimum of 5 years of post-qualification experience.",
+        "Architects must possess at least 5 years of experience after completing their professional qualification.",
+        "Physiotherapists must have a minimum of 5 years of experience post-qualification.",
+        "The business or professional practice must have been profit-making for the two previous years.",
+        "Experience requirements are intended to ensure a level of stability and maturity in the professional’s career.",
+        "Work experience is measured strictly from the date of obtaining the professional qualification.",
+        "Eligibility aligns with typical career trajectories to allow access to funding during growth phases.",
+        "A solid repayment history from previous loans is factored into the experience and eligibility assessment."
+      ],
+      "age_criteria": [
+        "The minimum age required to apply for the Loan for Professionals is 25 years.",
+        "The maximum age for an applicant at the time the loan matures is 65 years.",
+        "Applicants must fall within the 25 to 65 age bracket to ensure the loan stays within their working lifespan.",
+        "The age criteria support professionals from establishment through to later career stages.",
+        "Applicants must be at least 25 to demonstrate financial and professional maturity.",
+        "Maturity age limits are strictly enforced at 65 years for typical practice-transition phases.",
+        "Eligibility for specific personal or savings accounts does not override these loan age limits.",
+        "The age range ensures the professional has a sufficient working lifespan to repay the loan.",
+        "The bank uses this age bracket to assess the stability of the professional's financial endeavors.",
+        "Documentation such as KYC and PAN is used to verify that the applicant meets these specific age requirements."
+      ],
+      "minimum_income": [
+        "Applicants must have a minimum annual income of ₹1 lakh to qualify for the loan.",
+        "This income threshold confirms the professional's financial capacity to repay the borrowed amount.",
+        "Annual income is verified based on earnings generated specifically from the profession or practice.",
+        "For MSME-related professional loans, business turnover may be categorized as ≤ ₹7.5 Crores.",
+        "Larger professional enterprises may fall into the turnover category > ₹7.5 Crores.",
+        "An Overdraft Calculator is available to help professionals determine income-based credit limits.",
+        "A Business Loan EMI Calculator assists applicants in planning repayments against their annual income.",
+        "A good credit history allows professionals with stable income to access higher loan amounts.",
+        "Income stability is verified through the requirement that the practice must be profit-making for two years.",
+        "Financial capacity is a core pillar of eligibility, ensuring the loan is scaled to current earnings."
+      ]
+    }
+  },
+
+  "hdfc_loan_services": {
+    "bank": "HDFC Bank",
+    "category": "Loan Services",
+    "sections": [
+      {
+        "title": "Loan Services",
+        "content": [
+          "Comprehensive suite of retail and commercial loan products including Personal, Business, Home, and Vehicle loans.",
+          "End-to-end digital management for tracking applications, managing repayments, and accessing interest certificates.",
+          "Access to specialized financial tools such as EMI calculators, eligibility trackers, and appointment booking services.",
+          "Dedicated support resources for loan restructuring, insurance options, and regulatory customer literature."
+        ]
+      },
+      {
+        "title": "Personal Loan",
+        "content": [
+          "Account management: Tools for changing contact details, e-Mandate registration, and viewing EMI amounts.",
+          "Application lifecycle: Track or resume loan applications and add existing loans to your dashboard.",
+          "Resources: Access the loans portal, interest certificates, restructuring FAQs, and loan insurance.",
+          "Specialized offerings: Targeted loans for salaried individuals, marriage, medical emergencies, and Golden Edge customers."
+        ]
+      },
+      {
+        "title": "Business Loan",
+        "content": [
+          "Management utilities: Digital services for e-Mandate setup, EMI tracking, and interest certificate downloads.",
+          "Self-service portal: Manage existing business loans and track or resume new applications.",
+          "Support and restructuring: Links for loan restructuring, business loan summaries, and insurance.",
+          "Professional segments: Custom loans for manufacturers, traders, CAs, doctors, women entrepreneurs, and the self-employed."
+        ]
+      },
+      {
+        "title": "Car Loan",
+        "content": [
+          "Tracking and management: New car loan status tracker, account management, and EMI viewing.",
+          "Application tools: Resume or track applications and register e-Mandates for automated payments.",
+          "Support services: Access to auto loan summaries, interest certificates, and customer support for retail asset requests.",
+          "Planning resources: Tools for car loan eligibility, EMI calculators, and customer literature on NPA/SMA."
+        ]
+      },
+      {
+        "title": "EV Car Loan",
+        "content": [
+          "Core services: Manage EV car loan accounts, update contact details, and view EMI amounts.",
+          "Application management: Digital options to track or resume applications and add existing loans.",
+          "Compliance and FAQs: Access interest certificates, loan restructuring FAQs, and loan insurance details."
+        ]
+      },
+      {
+        "title": "Home Loan",
+        "content": [
+          "Financial reporting: Access provisional interest statements, certificates of interest, and repayment details.",
+          "Management tools: ACH mandate registration and high-level home loan account management.",
+          "Convenience features: Online appointment booking, WhatsApp opt-in for updates, and appointment tracking."
+        ]
+      },
+      {
+        "title": "Education Loan",
+        "content": [
+          "Service access: Manage education loan accounts, update contact info, and view EMI details.",
+          "Digital workflow: Tools to track or resume applications and register e-Mandates.",
+          "Documentation and help: Download interest certificates and access restructuring and insurance information."
+        ]
+      },
+      {
+        "title": "Two Wheeler Loan",
+        "content": [
+          "Operations: Update contact details, register e-Mandates, and manage two-wheeler loan accounts.",
+          "Dashboard features: View EMI amounts, track applications, and download interest certificates.",
+          "Summary and charges: Access comprehensive loan summaries, revised charge details, and restructuring portals."
+        ]
+      },
+      {
+        "title": "Gold Loan",
+        "content": [
+          "Account control: Change contact details, manage gold loan accounts, and view EMI amounts.",
+          "Process tracking: Resume or track applications and register e-Mandates for payments.",
+          "Calculators and support: Access gold loan eligibility and EMI calculators, interest certificates, and restructuring FAQs."
+        ]
+      }
+    ]
+  },
+
+  "hdfc_personal_loan_core_data": {
+    "bank": "HDFC Bank",
+    "product": "Personal Loan",
+    "loan_amount_range": "₹25,000 to ₹50 lakh",
+    "interest_rate": "9.99%",
+    "eligibility": [
+      "Age Requirement: Applicants must be between the age of 21 and 60 years at the time of loan application.",
+      "Employment Status: Open to employees of private limited companies and public sector undertakings (central, state, and local bodies).",
+      "Minimum Income: A minimum monthly net income of ₹25,000 is mandatory to qualify for a personal loan.",
+      "Golden Edge Program: High-value eligibility for customers with a monthly income ≥ ₹75,000 and a net loan amount > ₹15 Lakh.",
+      "Foreclosure Waiver: Golden Edge customers can foreclosure the loan without charges after paying a minimum of 12 EMIs from their own sources.",
+      "Top-Up Loan Criteria: Existing personal loan holders are eligible for a Top-Up after successfully completing at least 6 EMI payments.",
+      "Instant Disbursal: Pre-approved customers are eligible for instant fund transfers (as fast as 10 seconds) with zero documentation.",
+      "General Documentation: For non-pre-approved applicants, eligibility is determined by verifying income and employment documents via the online portal.",
+      "Savings Account Options: Broad eligibility for various savings accounts including DigiSave, Senior Citizen, and Women’s Savings Accounts.",
+      "Salary Account Tiers: Specialized eligibility for Corporate, Defence, and Government salary accounts offering unique debit card benefits.",
+      "Self-Employed Eligibility: Business loans are available for self-employed individuals, manufacturers, and traders based on business stability and income.",
+      "Professional Loans: Specific eligibility tracks for Doctors and Chartered Accountants (CAs) based on their professional standing.",
+      "NRI Eligibility: Non-Resident Indians can access NRE/NRO accounts, fixed deposits, and loans against assets or securities.",
+      "Unsecured Nature: No collateral or security is required to meet the basic personal loan eligibility criteria.",
+      "Assessment Basis: Loan eligibility is assessed based on the debt-to-income ratio and the applicant's overall repayment capacity.",
+      "Existing Debt Consideration: Existing loans are factored into the assessment to ensure the applicant can service the new EMI regularly.",
+      "Protection Eligibility: Borrowers can opt for Sarv Suraksha Pro which includes Credit Shield and Accidental Hospitalisation cover up to ₹8 Lakhs.",
+      "Loan Usage: Eligibility extends to various needs including marriage, medical emergencies, home renovation, and education.",
+      "Balance Transfer: Eligibility to transfer existing high-interest personal loans from other banks to HDFC at competitive rates.",
+      "Application Rejection: Applications may be declined due to internal policy deviations, which may not always reflect the applicant's creditworthiness."
+    ]
+  },
+
+  "hdfc_personal_loan": {
+    "bank": "HDFC Bank",
+    "product": "Personal Loan",
+    "principalAmount": "7,50,000",
+    "interestAmount": "2,05,896",
+    "totalPayable": "9,55,896",
+    "sliders": [
+      { "index": 0, "min": "1", "max": "40", "value": "15" },
+      { "index": 1, "min": "1", "max": "40", "value": "15" },
+      { "index": 2, "min": "1", "max": "40", "value": "15" },
+      { "index": 3, "min": "0", "max": "1", "value": "0.7" },
+      { "index": 4, "min": "0", "max": "1", "value": "1" },
+      { "index": 5, "min": "0", "max": "1", "value": "0.7" }
+    ],
+    "interestRateTexts": [
+      "HDFC Bank XPRESS Personal Loans offer funds ranging from ₹25,000 up to ₹50 lakh, with potential expansion to ₹75 lakh based on specific eligibility norms.",
+      "Competitive interest rates start as low as 9.99% p.a., with the final rate determined by factors such as CIBIL score, repayment history, and loan tenure.",
+      "Pre-approved customers benefit from 10-second instant disbursal and zero documentation, while other applicants typically receive funds within 4 working days.",
+      "Applicants must be between 21 and 60 years old, employed in the private or public sector including central, state, or local bodies.",
+      "Financial requirements include a minimum net monthly income of ₹25,000 and at least 2 years of total work experience, with 1 year at the current organization.",
+      "As an unsecured personal loan, no collateral or security is required, and borrowers can choose flexible repayment tenures up to 7 years.",
+      "Comprehensive protection options are available, including Personal Accident Cover up to ₹8 lakhs, Critical Illness cover, and Credit Shield security.",
+      "A Personal Loan Balance Transfer facility allows customers to switch existing high-interest loans to HDFC Bank starting at 9.99% p.a. with flat processing fees.",
+      "The Golden Edge program offers a foreclosure charge waiver after 12 EMIs for customers with a monthly income ≥₹75,000 and a net loan amount >₹15 lakh.",
+      "Customers can access 24x7 digital assistance through WhatsApp (70700 22222), Webchat, and PhoneBanking for seamless application tracking and support."
+    ]
+  },
+
+  "hdfc_investment_services": {
+    "bank": "HDFC Bank",
+    "category": "Investment Services",
+    "sections": [
+      {
+        "title": "Investment Services",
+        "content": [
+          "Personalized wealth management and investment advisory services designed to align with your financial goals and risk appetite.",
+          "Access to digital-first platforms like SmartWealth and InvestNow for a seamless, multi-asset investment experience.",
+          "Investment Services Account (ISA) for convenient tracking, purchasing, and switching of Mutual Funds through NetBanking.",
+          "Expert research insights and portfolio rebalancing recommendations to optimize wealth creation across diverse asset classes."
+        ]
+      },
+      {
+        "title": "Other Investment Product",
+        "content": [
+          "Core digital services: Aadhaar linking, Focused Funds access, and viewing or downloading of investment reports.",
+          "Portfolio management: Tools for Demat nomination, downloading holding summaries, and managing delivery instructions or pledge forms.",
+          "Compliance and support: Features for KYC or Re-KYC updates, PAN updates, EKYC consent, and access to the Investor Charter (NSDL and CDSL).",
+          "Available products: Includes Savings Bonds, Corporate Demat Accounts, National Pension System (NPS), Equities, and Derivatives."
+        ]
+      },
+      {
+        "title": "Demat Account",
+        "content": [
+          "Trading services via HDFC Securities.",
+          "Account utilities for KYC and PAN updates.",
+          "Investor Charter access and customer support.",
+          "3-in-1 SmartInvest account, IPO applications, and Mutual Funds."
+        ]
+      }
+    ]
+  },
+"bank": "HDFC Bank",
+  "page": "Interest Rates",
+  "last_updated": "January 22, 2026",
+  "non_withdrawable_tenure_summary": {
+    "category": "Non-Withdrawable Domestic/NRE/NRO Term Deposits (>= Rs. 2 Cr)",
+    "effective_date": "January 22, 2026",
+    "tenure_periods": [
+      "89 days to 120 days",
+      "121 days to 150 days",
+      "151 days to 6 months",
+      "6 months 1 day to 9 months",
+      "9 months 1 day to < 1 year",
+      "1 year to < 15 months",
+      "15 months to < 18 months",
+      "18 months to < 21 months",
+      "21 months to 2 years",
+      "2 years 1 day to 3 years",
+      "3 years 1 day to 5 years",
+      "5 years 1 day to 10 years"
+    ]
+  },
+    "foreign_currency_fcnr_rates": [
+    { "period": "1 Year to < 2 years", "GBP": "3.60%", "USD": "3.50%", "EURO": "3.50%", "JPY": "3.50%", "AUD": "3.50%", "CAD": "3.50%", "SGD": "3.50%" },
+    { "period": "2 Years to < 3 years", "GBP": "N/A", "USD": "3.30%", "EURO": "3.30%", "JPY": "3.30%", "AUD": "3.30%", "CAD": "3.30%", "SGD": "3.30%" },
+    { "period": "3 Years to < 4 years", "GBP": "N/A", "USD": "3.30%", "EURO": "3.30%", "JPY": "3.30%", "AUD": "3.30%", "CAD": "3.30%", "SGD": "3.30%" },
+    { "period": "4 Years to < 5 years", "GBP": "N/A", "USD": "3.00%", "EURO": "3.00%", "JPY": "3.00%", "AUD": "3.00%", "CAD": "3.00%", "SGD": "3.00%" },
+    { "period": "5 Years only", "GBP": "N/A", "USD": "2.85%", "EURO": "2.85%", "JPY": "2.85%", "AUD": "2.85%", "CAD": "2.85%", "SGD": "2.85%" }
+  ],
+  "rfc_account_rates": {
+    "description": "Resident Foreign Currency (RFC) and other short-term buckets",
+    "rates": [
+      { "period": "Less than 29 Days", "GBP": "0.01%", "USD": "0.01%", "EURO": "0.01%", "JPY": "0.01%" },
+      { "period": "30 days to 3 Months", "GBP": "0.01%", "USD": "0.01%", "EURO": "0.01%", "JPY": "0.01%" },
+      { "period": "3 Months 1 day to 6 Months", "GBP": "0.01%", "USD": "0.01%", "EURO": "0.01%", "JPY": "0.01%" },
+      { "period": "6 Months 1 day to < 1 Year", "GBP": "0.01%", "USD": "0.01%", "EURO": "0.01%", "JPY": "0.01%" },
+      { "period": "1 Year to < 2 years", "GBP": "3.60%", "USD": "3.50%", "EURO": "3.50%", "JPY": "3.50%" },
+      { "period": "2 years to < 3 years", "GBP": "0.01%", "USD": "3.30%", "EURO": "3.30%", "JPY": "3.30%" },
+      { "period": "3 years only", "GBP": "0.01%", "USD": "3.30%", "EURO": "3.30%", "JPY": "3.30%" }
+    ]
+  },
+    "standard_domestic_fd_rates": [
+    { "tenure": "6 Months", "rate": "4.25%", "senior_citizen": "4.75%", "effective": "June 10, 2025" },
+    { "tenure": "9 Months", "rate": "5.50%", "senior_citizen": "6.00%", "effective": "June 10, 2025" },
+    { "tenure": "12 Months", "rate": "6.25%", "senior_citizen": "6.75%", "effective": "June 10, 2025" },
+    { "tenure": "18 - 36 Months", "rate": "6.45%", "senior_citizen": "6.95%", "effective": "Dec 17, 2025" },
+    { "tenure": "63 - 120 Months", "rate": "6.15%", "senior_citizen": "6.65%", "effective": "June 10, 2025" }
+  ],
+  "short_term_deposit_rates": [
+    {
+      "Period": "1 month",
+      "Effective Date": "1.25%"
+    },
+    {
+      "Period": "3 months",
+      "Effective Date": "2.50%"
+    },
+    {
+      "Period": "6 months",
+      "Effective Date": "3.00%"
+    },
+    {
+      "Period": "1 year",
+      "Effective Date": "3.50%"
+    },
+    {
+      "col_0": "Interest Rates",
+      "col_1": "Interest rates are subject to change from time to time. Applicable interest rates will be given as on the date / time of receipt of the funds by the bank. When booking FD through NetBanking please note the actual interest rate being applied on the \"Confirm\" screen. This screen appears before you confirm your request for opening a new FD. In order to see the latest information, we request you to clear your browsers cache to see the updated interest rates. For Fixed Deposit Interest Rate Less Than 3 Cr- It is reiterated that the interest rate applicable on multiple deposits, across all channels, made by the same customer in a single day in one particular tenor bucket would be the rate which is applicable for the aggregate value or the individual value whichever is lower. Whereas, for Fixed Deposit Interest Rate Greater Than Or Equal To 3 Cr but Less Than 5 Cr, the interest rate applicable on multiple deposits, across all channels, made by the same customer in a single day in one particular tenor bucket would be the rate which is applicable for the aggregate value. As interest rates are subject to change without prior notice, depositor shall ascertain the rates on the value date of FD"
+    },
+    {
+      "col_0": "Tenor Bucket",
+      "col_1": "Tenor Bucket \"means the various tenure slabs as updated in the interest rate sheet on the website. For ex: e.g., ”1 Y 1d to 2 Y’ is one particular tenor bucket, similarly “5 Y 1 d to 10 Y“ is also one particular tenor bucket. The Minimum tenure for earning FD interest is 7 days."
+    },
+    {
+      "col_0": "Senior Citizens",
+      "col_1": "Only Senior Citizens / Retired Personnel (60 years and above) who are Resident Individuals are eligible. The special rates are applicable only for Resident deposits."
+    },
+    {
+      "col_0": "TDS",
+      "col_1": "Tax at Source is deducted as per the Income Tax regulations prevalent from time to time"
+    },
+    {
+      "col_0": "Premature Withdrawal",
+      "col_1": "With effect from July 22nd, 2023, the interest rate applicable for premature withdrawal including Sweep-in/Partial Withdrawal will be 1% less (penalty as applicable) of the rate on the date of deposit booked, to the period for which deposit remained with the bank and not at the contracted rate. Prior to July 22nd, 2023, For Premature Closure (for all amounts, and for including Sweep In / Partial Withdrawal), the final rate applicable will be 1% below that of the lower of either: a) the rate for the original /contracted tenor for which deposit has been booked or b) the base rate applicable for the tenor for which the deposit has been in force with the bank except for the deposits booked with tenor 7-14 days. For deposits booked on or after 7 March 2019 the base rate applicable to deposits in point b above is the Rate Applicable to Deposits of Less than 2 Crores, as on the date of the deposit. Prior to FD's booked on 7 March 2019, the base rate is the rate applicable to deposits of Less than 1 crore as on the date of deposit"
+    },
+    {
+      "col_0": "Exemption from penalty on premature withdrawal",
+      "col_1": "Central or State Government establishments such as Apex Bodies, Union Government, State Government, Union Territories Government, Legislature, Judiciary, Embassies, Missions, Panchayat, District, Local Body and certain other entities which are 100% owned by Government shall be eligible for exemption from penalty applicable on premature withdrawal of Fixed deposits for Deposits booked/renewed on or after 1st July’23. Customers who wish to avail this facility on new booking or renewal, are requested to visit nearest Branch prior to new booking or date of renewal of deposit with request letter and requisite documents (if required). For more details, Please contact your Branch/Relationship Manager. Please note this facility will not be available for online booking of FD."
+    },
+    {
+      "col_0": "Fixed Deposits for the tenor <= 6 months",
+      "col_1": "Simple Interest is paid"
+    },
+    {
+      "col_0": "Fixed Deposits for the tenor > 6 months with Quarterly Interest Payout option",
+      "col_1": "On a Quarterly basis"
+    },
+    {
+      "col_0": "Fixed Deposits for the tenor > 6 months with Monthly Interest Payout option",
+      "col_1": "Interest is calculated for the quarter and paid monthly at a discounted rate over the standard deposit rate"
+    },
+    {
+      "col_0": "Fixed Deposits for the tenor > 6 months with Interest Reinvestment option",
+      "col_1": "Cumulative Interest for the Quarter is added to the Principal in subsequent quarter and interest is calculated on total amount"
+    },
+    {
+      "col_0": "Interest Rates",
+      "col_1": "Interest rates are subject to change from time to time. Applicable interest rates will be given as on the date / time of receipt of the funds by the bank. When booking FD through NetBanking please note the actual interest rate being applied on the \"Confirm\" screen. This screen appears before you confirm your request for opening a new FD. In order to see the latest information, we request you to clear your browsers cache to see the updated interest rates. It is reiterated that the interest rate applicable on multiple deposits, across all channels, made by the same customer in a single day in one particular tenor bucket would be the rate which is applicable for the aggregate value or the individual value whichever is lower. ​​​​​​​ As interest rates are subject to change without prior notice, depositor shall ascertain the rates on the value date of FD"
+    },
+    {
+      "col_0": "Tenor Bucket",
+      "col_1": "Tenor Bucket \"means the various tenure slabs as updated in the interest rate sheet on the website . For ex: e.g.” 1 Y 1d to 2 Y “ is one particular tenor bucket, similarly “ 5 Y 1 d to 10 Y “ is also one particular tenor bucket. The Minimum tenor for earning the interest on NRO Fixed Deposit is 7 days. The Minimum tenor for earning the interest on NRE Fixed Deposit is 1 year."
+    },
+    {
+      "col_0": "Senior Citizens",
+      "col_1": "The Senior Citizen Rates are only for Resident Indians and do not apply to NRIs."
+    },
+    {
+      "col_0": "TDS",
+      "col_1": "Tax at Source is deducted as per the Income Tax regulations prevalent from time to time (applicable on NRO Fixed Deposits)"
+    },
+    {
+      "col_0": "Premature Withdrawal",
+      "col_1": "No Interest will be paid if the NRE Deposit is prematurely withdrawn before 1 year. No Penalty will be levied on premature closure of NRE Fixed Deposit. Partial premature withdrawal and sweep-in facility is not allowed for NRE/NRO fixed deposits booked between 5 Crore to less than 25 Crore. With effect from July 22nd, 2023, the interest rate applicable for premature withdrawal including Sweep-in/Partial Withdrawal on NRO Deposits will be 1% less of the rate on the date of deposit booked for the period for which deposit remained with the bank and not at the contracted rate. With effect from July 22nd, 2023, the interest rate applicable for premature withdrawal including Sweep-in/Partial Withdrawal on NRE Deposits will be the rate on the date of deposit booked for the period for which deposit remained with the bank and not at the contracted rate."
+    },
+    {
+      "col_0": "Fixed Deposits for the tenor <= 6 months",
+      "col_1": "Simple Interest is paid"
+    },
+    {
+      "col_0": "Fixed Deposits for the tenor > 6 months with Quarterly Interest Payout option",
+      "col_1": "On a Quarterly basis"
+    },
+    {
+      "col_0": "Fixed Deposits for the tenor > 6 months with Monthly Interest Payout option",
+      "col_1": "Interest is calculated for the quarter and paid monthly at a discounted rate over the standard deposit rate"
+    },
+    {
+      "col_0": "Fixed Deposits for the tenor > 6 months with Interest Reinvestment option",
+      "col_1": "Cumulative Interest for the Quarter is added to the Principal in subsequent quarter and interest is calculated on total amount"
+    }
+  ],
+  "non_withdrawable_rates_2cr_to_5cr": [
+    { "tenure": "7 - 29 days", "less_than_3cr": "2.75%", "three_to_five_cr": "4.00%" },
+    { "tenure": "30 - 45 days", "less_than_3cr": "3.25%", "three_to_five_cr": "4.75%" },
+    { "tenure": "46 - 89 days", "less_than_3cr": "4.25%", "three_to_five_cr": "5.00% - 5.25%" },
+    { "tenure": "90 days to 6 months", "less_than_3cr": "4.25%", "three_to_five_cr": "5.50%" },
+    { "tenure": "6 months to 1 year", "less_than_3cr": "5.50% - 5.75%", "three_to_five_cr": "5.75% - 6.00%" },
+    { "tenure": "1 year to 5 years", "less_than_3cr": "6.25% - 6.45%", "three_to_five_cr": "6.25% - 6.40%" },
+    { "tenure": "5 years to 10 years", "less_than_3cr": "6.15%", "three_to_five_cr": "6.15%" }
+  ],
+    "withdrawable_fd_rates_above_5cr": {
+  "applicable_from": "22 Jan 2026",
+  "currency": "INR",
+  "deposit_type": "Domestic / NRE / NRO",
+  "rates": [
+    { "period": "7–14 days" },
+    { "period": "15–29 days" },
+    { "period": "30–45 days" },
+    { "period": "46–60 days" },
+    { "period": "61–88 days" },
+    { "period": "89–120 days" },
+    { "period": "121–150 days" },
+    { "period": "151 days – 6 months" },
+    { "period": "6 months 1 day – 9 months" }
+  ]
+},
+
+    "withdrawable_fd_rates_above_5cr": {
+  "rates": [
+    {
+      "period": "6 Months",
+      "rate": "4.25%",
+      "senior_rate": "4.75%",
+      "effective_from": "June 10, 2025"
+    },
+    {
+      "period": "9 Months",
+      "rate": "5.50%",
+      "senior_rate": "6.00%",
+      "effective_from": "June 10, 2025"
+    },
+    {
+      "period": "12 Months",
+      "rate": "6.25%",
+      "senior_rate": "6.75%",
+      "effective_from": "June 10, 2025"
+    },
+    {
+      "period": "15 Months",
+      "rate": "6.35%",
+      "senior_rate": "6.85%",
+      "effective_from": "Jun 25, 2025"
+    },
+    {
+      "period": "18 – 36 Months",
+      "rate": "6.45%",
+      "senior_rate": "6.95%",
+      "effective_from": "June 10, 2025"
+    },
+    {
+      "period": "39 – 60 Months",
+      "rate": "6.40%",
+      "senior_rate": "6.90%",
+      "effective_from": "June 10, 2025"
+    },
+    {
+      "period": "63 – 120 Months",
+      "rate": "6.15%",
+      "senior_rate": "6.65%",
+      "effective_from": "June 10, 2025"
+    }
+  ]
+},
+    "notes": [
+    {
+      "title": "Interest Rates",
+      "description": "Interest rates are subject to change from time to time. Applicable interest rates will be those prevailing on the date and time of receipt of funds by the bank. For Fixed Deposits less than 3 Cr, interest rate applicable on multiple deposits in a single day within the same tenor bucket will be the lower of aggregate or individual value. For deposits ≥ 3 Cr and < 5 Cr, the rate applicable will be based on the aggregate value. Depositors are advised to verify rates on the value date of FD."
+    },
+    {
+      "title": "Tenor Bucket",
+      "description": "Tenor Bucket refers to the various tenure slabs as updated in the interest rate sheet on the website. For example, '1 year 1 day to 2 years' or '5 years 1 day to 10 years' constitute individual tenor buckets. Minimum tenure for earning FD interest is 7 days."
+    },
+    {
+      "title": "Senior Citizens",
+      "description": "Only Resident Senior Citizens or Retired Personnel aged 60 years and above are eligible for special rates. These rates apply only to Resident deposits."
+    },
+    {
+      "title": "TDS",
+      "description": "Tax at Source (TDS) is deducted as per Income Tax regulations applicable from time to time."
+    },
+    {
+      "title": "Premature Withdrawal",
+      "description": "With effect from July 22, 2023, premature withdrawal including sweep-in or partial withdrawal attracts a penalty of 1% lower interest than the applicable rate for the period the deposit remained with the bank. For deposits booked prior to July 22, 2023, the final rate is 1% lower than the lower of the contracted rate or the base rate applicable for the tenure the deposit remained."
+    },
+    {
+      "title": "Penalty Exemption on Premature Withdrawal",
+      "description": "Central and State Government establishments including Apex Bodies, Union Government, State Government, Union Territories, Legislature, Judiciary, Embassies, Missions, Panchayat, District and Local Bodies that are 100% Government-owned are eligible for penalty exemption on premature withdrawal for deposits booked or renewed on or after July 1, 2023. This facility is available only through branch visits and not via online booking."
+    },
+    {
+      "title": "Interest Payout (Tenor ≤ 6 months)",
+      "description": "Simple interest is paid."
+    },
+    {
+      "title": "Interest Payout (Tenor > 6 months – Quarterly)",
+      "description": "Interest is paid on a quarterly basis."
+    },
+    {
+      "title": "Interest Payout (Tenor > 6 months – Monthly)",
+      "description": "Interest is calculated quarterly and paid monthly at a discounted rate."
+    },
+    {
+      "title": "Interest Reinvestment Option",
+      "description": "Cumulative interest for each quarter is added to the principal in the subsequent quarter, and interest is calculated on the total amount."
+    }
+  ],
+  "recurringDeposit": {
+  "currency": "INR",
+  "rates": [
+    {
+      "deposit_range": "< 3 Crore",
+      "tenors": [
+        { "tenor": "7–29 days", "rate": "2.75%" },
+        { "tenor": "30–45 days", "rate": "3.25%" },
+        { "tenor": "46 days – 6 months", "rate": "4.25%" },
+        { "tenor": "6 months 1 day – 9 months", "rate": "5.50%" },
+        { "tenor": "9 months 1 day – < 1 year", "rate": "5.75%" },
+        { "tenor": "1 year – < 15 months", "rate": "6.25%" },
+        { "tenor": "15 – < 18 months", "rate": "6.35%" },
+        { "tenor": "18 months – 3 years", "rate": "6.45%" },
+        { "tenor": "3 years 1 day – 5 years", "rate": "6.40%" },
+        { "tenor": "5 years 1 day – 10 years", "rate": "6.15%" }
+      ]
+    },
+    {
+      "deposit_range": ">= 3 Crore to < 5 Crores",
+      "tenors": [
+        { "tenor": "7–29 days", "rate": "4.00%" },
+        { "tenor": "30–45 days", "rate": "4.75%" },
+        { "tenor": "46–60 days", "rate": "5.00%" },
+        { "tenor": "61–89 days", "rate": "5.25%" },
+        { "tenor": "90 days – 6 months", "rate": "5.50%" },
+        { "tenor": "6 months 1 day – 9 months", "rate": "5.75%" },
+        { "tenor": "9 months 1 day – < 1 year", "rate": "6.00%" },
+        { "tenor": "1 year – < 18 months", "rate": "6.25%" },
+        { "tenor": "18 months – 2 years", "rate": "6.40%" },
+        { "tenor": "2 years 1 day – 3 years", "rate": "6.25%" },
+        { "tenor": "3 years 1 day – 5 years", "rate": "6.35%" },
+        { "tenor": "5 years 1 day – 10 years", "rate": "6.15%" }
+      ]
+    }
+  ]
+},
+  "termDepositRates": {
+    "category": "Domestic/NRE/NRO",
+    "amount_range": ">= 5 Crore",
+    "withdrawable": true,
+    "effective_date": "22 Jan 2026",
+    "tenor_buckets": [
+      "7–14 days",
+      "15–29 days",
+      "30–45 days",
+      "46–60 days",
+      "61–88 days",
+      "89–120 days",
+      "121–150 days",
+      "151 days – 6 months",
+      "6 months 1 day – 9 months",
+      "9 months 1 day – < 1 year",
+      "1 year – < 15 months",
+      "15 months – < 18 months",
+      "18 months – < 21 months",
+      "21 months – 2 years",
+      "2 years 1 day – 3 years",
+      "3 years 1 day – 5 years",
+      "5 years 1 day – 10 years"
+    ]
+  },
+    "fd_interest_rates": [
+  { "period_months": 6, "rate": "4.25%", "senior_rate": "4.75%", "effective_from": "2025-06-10" },
+  { "period_months": 9, "rate": "5.50%", "senior_rate": "6.00%", "effective_from": "2025-06-10" },
+  { "period_months": 12, "rate": "6.25%", "senior_rate": "6.75%", "effective_from": "2025-06-10" },
+  { "period_months": 15, "rate": "6.35%", "senior_rate": "6.85%", "effective_from": "2025-06-25" },
+  { "period_months": 18, "rate": "6.45%", "senior_rate": "6.95%", "effective_from": "2025-12-17" },
+  { "period_months": 21, "rate": "6.45%", "senior_rate": "6.95%", "effective_from": "2025-06-10" },
+
+  { "period_months": 24, "rate": "6.45%", "senior_rate": "6.95%", "effective_from": "2025-06-10" },
+  { "period_months": 27, "rate": "6.45%", "senior_rate": "6.95%", "effective_from": "2025-06-10" },
+  { "period_months": 30, "rate": "6.45%", "senior_rate": "6.95%", "effective_from": "2025-06-10" },
+  { "period_months": 33, "rate": "6.45%", "senior_rate": "6.95%", "effective_from": "2025-06-10" },
+  { "period_months": 36, "rate": "6.45%", "senior_rate": "6.95%", "effective_from": "2025-06-10" },
+
+  { "period_months": 39, "rate": "6.40%", "senior_rate": "6.90%", "effective_from": "2025-06-10" },
+  { "period_months": 42, "rate": "6.40%", "senior_rate": "6.90%", "effective_from": "2025-06-10" },
+  { "period_months": 45, "rate": "6.40%", "senior_rate": "6.90%", "effective_from": "2025-06-10" },
+  { "period_months": 48, "rate": "6.40%", "senior_rate": "6.90%", "effective_from": "2025-06-10" },
+  { "period_months": 51, "rate": "6.40%", "senior_rate": "6.90%", "effective_from": "2025-06-10" },
+  { "period_months": 54, "rate": "6.40%", "senior_rate": "6.90%", "effective_from": "2025-06-10" },
+  { "period_months": 57, "rate": "6.40%", "senior_rate": "6.90%", "effective_from": "2025-06-10" },
+  { "period_months": 60, "rate": "6.40%", "senior_rate": "6.90%", "effective_from": "2025-06-10" },
+
+  { "period_months": 63, "rate": "6.15%", "senior_rate": "6.65%", "effective_from": "2025-06-10" },
+  { "period_months": 66, "rate": "6.15%", "senior_rate": "6.65%", "effective_from": "2025-06-10" },
+  { "period_months": 69, "rate": "6.15%", "senior_rate": "6.65%", "effective_from": "2025-06-10" },
+  { "period_months": 72, "rate": "6.15%", "senior_rate": "6.65%", "effective_from": "2025-06-10" },
+  { "period_months": 75, "rate": "6.15%", "senior_rate": "6.65%", "effective_from": "2025-06-10" },
+  { "period_months": 78, "rate": "6.15%", "senior_rate": "6.65%", "effective_from": "2025-06-10" },
+  { "period_months": 81, "rate": "6.15%", "senior_rate": "6.65%", "effective_from": "2025-06-10" },
+  { "period_months": 84, "rate": "6.15%", "senior_rate": "6.65%", "effective_from": "2025-06-10" },
+  { "period_months": 87, "rate": "6.15%", "senior_rate": "6.65%", "effective_from": "2025-06-10" },
+  { "period_months": 90, "rate": "6.15%", "senior_rate": "6.65%", "effective_from": "2025-06-10" },
+  { "period_months": 93, "rate": "6.15%", "senior_rate": "6.65%", "effective_from": "2025-06-10" },
+  { "period_months": 96, "rate": "6.15%", "senior_rate": "6.65%", "effective_from": "2025-06-10" },
+  { "period_months": 99, "rate": "6.15%", "senior_rate": "6.65%", "effective_from": "2025-06-10" },
+  { "period_months": 102, "rate": "6.15%", "senior_rate": "6.65%", "effective_from": "2025-06-10" },
+  { "period_months": 105, "rate": "6.15%", "senior_rate": "6.65%", "effective_from": "2025-06-10" },
+  { "period_months": 108, "rate": "6.15%", "senior_rate": "6.65%", "effective_from": "2025-06-10" },
+  { "period_months": 111, "rate": "6.15%", "senior_rate": "6.65%", "effective_from": "2025-06-10" },
+  { "period_months": 114, "rate": "6.15%", "senior_rate": "6.65%", "effective_from": "2025-06-10" },
+  { "period_months": 117, "rate": "6.15%", "senior_rate": "6.65%", "effective_from": "2025-06-10" },
+  { "period_months": 120, "rate": "6.15%", "senior_rate": "6.65%", "effective_from": "2025-06-10" }
+],
+  "savingsAccount": [
+    {
+      "Tenor Bucket": "",
+      "< 3 Crore": "Interest Rate (per annum)"
+    },
+    {
+      "Tenor Bucket": "7 - 14 days",
+      "< 3 Crore": "2.75%"
+    },
+    {
+      "Tenor Bucket": "15-29 days",
+      "< 3 Crore": "2.75%"
+    },
+    {
+      "Tenor Bucket": "30-45 days",
+      "< 3 Crore": "3.25%"
+    },
+    {
+      "Tenor Bucket": "46-60 days",
+      "< 3 Crore": "4.25%"
+    },
+    {
+      "Tenor Bucket": "61-89 days",
+      "< 3 Crore": "4.25%"
+    },
+    {
+      "Tenor Bucket": "90 days <= 6 months",
+      "< 3 Crore": "4.25%"
+    },
+    {
+      "Tenor Bucket": "6 months 1 day <=9 months",
+      "< 3 Crore": "5.50%"
+    },
+    {
+      "Tenor Bucket": "9 months 1 day to < 1 Year",
+      "< 3 Crore": "5.75%"
+    },
+    {
+      "Tenor Bucket": "1 Year to < 15 months",
+      "< 3 Crore": "6.25%"
+    },
+    {
+      "Tenor Bucket": "15 months to < 18 months",
+      "< 3 Crore": "6.35%"
+    },
+    {
+      "Tenor Bucket": "18 months to < 21 months",
+      "< 3 Crore": "6.45%"
+    },
+    {
+      "Tenor Bucket": "21 months to 2 years",
+      "< 3 Crore": "6.45%"
+    },
+    {
+      "Tenor Bucket": "2 Years 1 day to < 2 Year 11 Months",
+      "< 3 Crore": "6.45%"
+    },
+    {
+      "Tenor Bucket": "2 Years 11 Months (35 months)",
+      "< 3 Crore": "6.45%"
+    },
+    {
+      "Tenor Bucket": "2 Years 11 Months 1 day <= 3 Year",
+      "< 3 Crore": "6.45%"
+    },
+    {
+      "Tenor Bucket": "3 Years 1 day to < 4 Years 7 Months",
+      "< 3 Crore": "6.40%"
+    },
+    {
+      "Tenor Bucket": "4 Year 7 Months (55 months)",
+      "< 3 Crore": "6.40%"
+    },
+    {
+      "Tenor Bucket": "4 Year 7 Months 1 day <=5 Years",
+      "< 3 Crore": "6.40%"
+    },
+    {
+      "Tenor Bucket": "5 Years 1 day to 10 Years",
+      "< 3 Crore": "6.15%"
+    },
+    {
+      "Tenor Bucket": "",
+      ">=3 Crore to < 5 Crores": "Interest Rate (per annum)"
+    },
+    {
+      "Tenor Bucket": "7 - 14 days",
+      ">=3 Crore to < 5 Crores": "4.00%"
+    },
+    {
+      "Tenor Bucket": "15-29 days",
+      ">=3 Crore to < 5 Crores": "4.00%"
+    },
+    {
+      "Tenor Bucket": "30-45 days",
+      ">=3 Crore to < 5 Crores": "4.75%"
+    },
+    {
+      "Tenor Bucket": "46-60 days",
+      ">=3 Crore to < 5 Crores": "5.00%"
+    },
+    {
+      "Tenor Bucket": "61-89 days",
+      ">=3 Crore to < 5 Crores": "5.25%"
+    },
+    {
+      "Tenor Bucket": "90 days <= 6 months",
+      ">=3 Crore to < 5 Crores": "5.50%"
+    },
+    {
+      "Tenor Bucket": "6 months 1 day <= 9 months",
+      ">=3 Crore to < 5 Crores": "5.75%"
+    },
+    {
+      "Tenor Bucket": "9 months 1 day to < 1 Year",
+      ">=3 Crore to < 5 Crores": "6.00%"
+    },
+    {
+      "Tenor Bucket": "1 Year to < 15 months",
+      ">=3 Crore to < 5 Crores": "6.25%"
+    },
+    {
+      "Tenor Bucket": "15 months to < 18 months",
+      ">=3 Crore to < 5 Crores": "6.25%"
+    },
+    {
+      "Tenor Bucket": "18 months to < 21 months",
+      ">=3 Crore to < 5 Crores": "6.40%"
+    },
+    {
+      "Tenor Bucket": "21 months to 2 years",
+      ">=3 Crore to < 5 Crores": "6.40%"
+    },
+    {
+      "Tenor Bucket": "2 year 1 day to 3 years",
+      ">=3 Crore to < 5 Crores": "6.25%"
+    },
+    {
+      "Tenor Bucket": "3 year 1 day to 5 years",
+      ">=3 Crore to < 5 Crores": "6.35%"
+    },
+    {
+      "Tenor Bucket": "5 year 1 day to 10 years",
+      ">=3 Crore to < 5 Crores": "6.15%"
+    },
+    {
+  "termDepositRates": {
+    "category": "Domestic/NRE/NRO",
+    "amount_range": ">= 5 Crore",
+    "withdrawable": true,
+    "effective_date": "22 Jan 2026",
+    "tenor_buckets": [
+      "7-14 days",
+      "15-29 days",
+      "30-45 days",
+      "46-60 days",
+      "61-88 days",
+      "89 days <= 120 Days",
+      "121 days <= 150 days",
+      "151 days <= 6 Months",
+      "6 months 1 day <= 9 months",
+      "9 months 1 day < 1 year",
+      "1 year to < 15 months",
+      "15 months to < 18 months",
+      "18 months to < 21 months",
+      "21 months to 2 years",
+      "2 years 1 day to 3 years",
+      "3 years 1 day to 5 years",
+      "5 years 1 day to 10 years"
+    ]
+  }
+},
+    {
+  "termDepositRates": {
+    "category": "Domestic/NRE/NRO",
+    "amount_range": ">= 5 Crore",
+    "withdrawable": true,
+    "effective_date": "22 Jan 2026",
+    "rates": [
+      { "period": "6 Months", "general_rate": "4.25%", "senior_citizen_rate": "4.75%", "effective_from": "June 10, 2025" },
+      { "period": "9 Months", "general_rate": "5.50%", "senior_citizen_rate": "6.00%", "effective_from": "Jun 10, 2025" },
+      { "period": "12 Months", "general_rate": "6.25%", "senior_citizen_rate": "6.75%", "effective_from": "Jun 10, 2025" },
+      { "period": "15 Months", "general_rate": "6.35%", "senior_citizen_rate": "6.85%", "effective_from": "Jun 25, 2025" },
+      { "period": "18 Months", "general_rate": "6.45%", "senior_citizen_rate": "6.95%", "effective_from": "Dec 17, 2025" },
+      { "period": "21 - 36 Months", "general_rate": "6.45%", "senior_citizen_rate": "6.95%", "effective_from": "Jun 10, 2025" },
+      { "period": "39 - 60 Months", "general_rate": "6.40%", "senior_citizen_rate": "6.90%", "effective_from": "Jun 10, 2025" },
+      { "period": "63 - 120 Months", "general_rate": "6.15%", "senior_citizen_rate": "6.65%", "effective_from": "Jun 10, 2025" }
+    ]
+  },
+  "savingsAccountRates": {
+    "balance_bracket": "Across All Account Balances",
+    "interest_rate_pa": "2.50%"
+  },
+  "foreignCurrencyRates": {
+    "GBP": "0.01%",
+    "USD": "0.01%",
+    "Euro": "NA",
+    "JPY": "NA"
+  }
+}
+  ]
+}
+
