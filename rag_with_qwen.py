@@ -6,6 +6,22 @@ from sentence_transformers import SentenceTransformer
 from spellchecker import SpellChecker
 from difflib import get_close_matches
 
+# ---------------------------
+# Prompt template for query rewriting
+# ---------------------------
+QUERY_REWRITE_PROMPT = """
+You are a query understanding assistant.
+
+Fix spelling mistakes.
+Preserve domain terms like HDFC, loan, EMI, interest.
+Rewrite the query clearly and concisely.
+
+User query:
+"{query}"
+
+Rewritten query:
+"""
+
 
 DOMAIN_WORDS = {
     "loan", "loans", "personal", "interest", "emi", "tenure",
@@ -60,22 +76,6 @@ def correct_spelling(text):
 
     return corrected_query
 
-# ---------------------------
-# Prompt Template: Query Rewriter
-# ---------------------------
-QUERY_REWRITE_PROMPT = """
-You are a query understanding assistant.
-
-Fix spelling mistakes.
-Preserve domain terms like HDFC, loan, EMI, interest, tenure.
-Rewrite the query clearly and concisely.
-
-User query:
-"{query}"
-
-Rewritten query:
-"""
-
 # 5️⃣ ✅ PUT rewrite_query_with_qwen() HERE
 def rewrite_query_with_qwen(query):
     prompt = QUERY_REWRITE_PROMPT.format(query=query)
@@ -97,7 +97,8 @@ def rewrite_query_with_qwen(query):
         return rewritten
 
     return query  # fallback
-    
+
+
 # ---------------------------
 # Retrieve relevant context
 # ---------------------------
@@ -178,5 +179,4 @@ if __name__ == "__main__":
 
     print("\n🧠 Answer:\n")
     print(answer)
-
 
