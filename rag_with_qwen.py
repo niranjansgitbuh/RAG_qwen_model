@@ -26,7 +26,7 @@ Rewritten query:
 DOMAIN_WORDS = {
     "loan", "loans", "personal", "interest", "emi", "tenure",
     "eligibility", "hdfc", "bank", "balance", "transfer",
-    "principal", "rate", "charges", "repayment"
+    "principal", "rate", "charges", "repayment","investment","criteria"
 }
 
 
