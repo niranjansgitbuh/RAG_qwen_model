@@ -23,7 +23,6 @@ Rewritten query:
 """
 
 
-
 DOMAIN_WORDS = {
     "loan", "loans", "personal", "interest", "emi", "tenure",
     "eligibility", "hdfc", "bank", "balance", "transfer",
@@ -42,12 +41,12 @@ with open("hdfc_texts.pkl", "rb") as f:
 print("FAISS index and texts loaded ✅")
 
 # ---------------------------
-# Load embedding model
+# Load embedding model, This converts text into vectors for semantic similarity.
 # ---------------------------
 model = SentenceTransformer("all-MiniLM-L6-v2")
 
 # ---------------------------
-# Spell correction (NEW)
+# Spell correction (NEW), Try fuzzy match with domain words
 # ---------------------------
 spell = SpellChecker()
 
@@ -56,13 +55,13 @@ def correct_spelling(text):
     corrected_words = []
 
     for word in words:
-        # 1️⃣ Try fuzzy match with domain words FIRST
+        # 1️. Try fuzzy match with domain words FIRST
         domain_match = get_close_matches(word, DOMAIN_WORDS, n=1, cutoff=0.8)
         if domain_match:
             corrected_words.append(domain_match[0])
             continue
 
-        # 2️⃣ Otherwise use spellchecker
+        # 2️. Otherwise use spellchecker
         corrected = spell.correction(word)
 
         if corrected:
